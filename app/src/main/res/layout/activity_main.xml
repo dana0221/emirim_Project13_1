@@ -31,13 +31,15 @@
             android:id="@+id/btn_start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_start"/>
+            android:text="@string/btn_start"
+            android:layout_marginRight="10dp"/>
 
         <Button
             android:id="@+id/btn_pause"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_pause"/>
+            android:text="@string/btn_pause"
+            android:layout_marginRight="10dp"/>
 
         <Button
             android:id="@+id/btn_stop"
@@ -60,10 +62,9 @@
             android:text="@string/text_music"
             android:layout_marginRight="10dp"/>
 
-        <ProgressBar
-            android:id="@+id/progress"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:visibility="invisible"/>
+        <SeekBar
+            android:id="@+id/seek1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </LinearLayout>
